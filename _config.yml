@@ -25,11 +25,3 @@ isolang: en
 exclude:
   - LICENSE
   - README.md
-
-defaults:
-- scope:
-    path: pages
-    type: pages
-  values:
-    layout: pages
-    sectionid: pages
