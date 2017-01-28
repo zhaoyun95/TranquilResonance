@@ -1,0 +1,27 @@
+safe: false
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+permalink: /:title
+
+title: "TRS"
+description: "Some description"
+baseurl: ""
+url: "" # replace with site's url
+
+author: "Your Name"
+address: "Your Street, <br>Your City, Country"
+email: "your@email.com"
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# language settings
+isolang: en
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
