@@ -1,7 +1,7 @@
 
 body {
   align-items: center;
-  background-color: #EEE;
+  background-color: white;
   display: flex;
   flex-direction: column;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -11,6 +11,7 @@ body {
 
 .Page {
   align-items: center;
+  background-color: #FAFAFA;
   box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
   display: flex;
   flex: 1 1 auto;
@@ -20,38 +21,26 @@ body {
 }
 
 .Page-Body {
-  background-color: white;
   box-sizing: border-box;
   flex-grow: 1;
-  padding: 15px;
+  padding: 20px;
   width: 100%;
 }
 
-.Header {
-  display: flex;
-  flex-direction: column;
-}
-
-.Header-navigation {
-  background-color: black;
+.Page-BodyContent {
+  background-color: white;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
   box-sizing: border-box;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  font-size: 14px;
-  list-style: none;
-  margin: 0;
-  padding: 0 40px;
-  text-transform: uppercase;
-  width: 100%;
+  padding: 20px 30px;
 }
 
-.Header-navigation > li {
-  cursor: pointer;
-  margin: 0;
-  padding: 10px 20px;
+h1 {
+  border-bottom: 1px solid black;
+  font-weight: lighter;
+  margin: 0 0 10px 0;
+  padding: 0;
 }
 
-.Header-navigation > li:hover {
-  background-color: #666;
+.Page-Footer {
+  padding-bottom: 10px;
 }

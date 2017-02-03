@@ -11,8 +11,14 @@
   <body>
     <div class="Page">
       {% include header.html %}
+      {% include header_image.html image=page.headerImage %}
       <div class="Page-Body">
-        {{content}}
+        <div class="Page-BodyContent">
+          {{content}}
+        </div>
+      </div>
+      <div class="Page-Footer">
+        &copy; Tranquil Resonance Studio 2017
       </div>
     </div>
   </body>
