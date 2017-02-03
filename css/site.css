@@ -9,6 +9,27 @@ body {
   margin: 0;
 }
 
+#BodyBackground-left {
+  background-image: url('/img/swirl.jpg');
+  position: absolute;
+  height: 300px;
+  left: -100px;
+  top: 400px;
+  transform: rotate(90deg);
+  width: 400px;
+  z-index: 1;
+}
+#BodyBackground-right {
+  background-image: url('/img/swirl.jpg');
+  position: absolute;
+  height: 300px;
+  right: -100px;
+  top: 100px;
+  transform: rotate(-30deg);
+  width: 400px;
+  z-index: 1;
+}
+
 .Page {
   align-items: center;
   background-color: #FAFAFA;
@@ -17,7 +38,8 @@ body {
   flex: 1 1 auto;
   flex-direction: column;
   justify-content: center;
-  width: 930px;
+  max-width: 930px;
+  z-index: 2;
 }
 
 .Page-Body {
