@@ -9,7 +9,7 @@ permalink: /:title
 title: "TRS"
 description: "Some description"
 baseurl: ""
-url: "" # replace with site's url
+url: "https://hoqqanen.github.io/trs/" # replace with site's url
 
 author: "Your Name"
 address: "Your Street, <br>Your City, Country"
