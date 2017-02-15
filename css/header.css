@@ -17,12 +17,43 @@
   width: 100%;
 }
 
+.Header-navigation a {
+  color: white;
+  text-decoration: none;  
+}
+
 .Header-navigation > li {
-  cursor: pointer;
   margin: 0;
   padding: 10px 20px;
+  position: relative;
 }
 
 .Header-navigation > li:hover {
+  background-color: #666;
+}
+
+.Header-navigation li ul {
+  background-color: black;
+  display: none;
+  font-size: 12px;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  min-width: 100%;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  transition: all 300ms;
+}
+.Header-navigation li:hover ul {
+  display: block;
+}
+
+.Header-navigation li ul li {
+  padding: 10px;
+  text-transform: none;
+  white-space: nowrap;
+}
+.Header-navigation li ul li:hover {
   background-color: #666;
 }

@@ -10,23 +10,21 @@ body {
 }
 
 #BodyBackground-left {
-  background-image: url('/img/swirl.jpg');
+  background-image: url('/img/bamboo_left.jpg');
+  bottom: 0;
+  height: 500px;
+  left: 0;
   position: absolute;
-  height: 300px;
-  left: -100px;
-  top: 400px;
-  transform: rotate(90deg);
-  width: 400px;
+  width: 500px;
   z-index: 1;
 }
 #BodyBackground-right {
-  background-image: url('/img/swirl.jpg');
+  background-image: url('/img/bamboo_right.jpg');
+  bottom: 0;
+  height: 500px;
   position: absolute;
-  height: 300px;
-  right: -100px;
-  top: 100px;
-  transform: rotate(-30deg);
-  width: 400px;
+  right: 0;
+  width: 500px;
   z-index: 1;
 }
 
