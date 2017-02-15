@@ -28,3 +28,6 @@ exclude:
 
 gems:
   - octopress-autoprefixer
+
+sass:
+    sass_dir: _sass
