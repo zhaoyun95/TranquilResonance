@@ -10,7 +10,6 @@ body {
 }
 
 #BodyBackground-left {
-  background-image: url('/img/bamboo_left.jpg');
   bottom: 0;
   height: 500px;
   left: 0;
@@ -19,7 +18,6 @@ body {
   z-index: 1;
 }
 #BodyBackground-right {
-  background-image: url('/img/bamboo_right.jpg');
   bottom: 0;
   height: 500px;
   position: absolute;
