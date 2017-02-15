@@ -1,4 +1,12 @@
 .headerImage {
   /* Component-specific css should go in separate files like this. */
-  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headerImage--vertical {
+  flex: 1 1 auto;
+  height: 100%;
+  margin-bottom: 0;
+  margin-right: 10px;
+  width: 330px;
 }

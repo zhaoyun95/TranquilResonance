@@ -1,2 +1,3 @@
-<link rel="stylesheet" href="css/header_image.css">
-<img src="img/headers/{{include.image}}.jpg" class="headerImage">
+<link rel="stylesheet" href="{{site.baseurl}}/css/header_image.css">
+<img src="{{site.baseurl}}/img/headers/{{include.image}}.jpg" 
+     class="headerImage {% if include.verticalClass != null %} headerImage--vertical {% endif %}">

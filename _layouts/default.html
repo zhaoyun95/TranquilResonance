@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="shortcut icon" href=""> -->
-    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/site.css">
 
-    <title>TRS</title>
+    <title>Tranquil Resonance Studio</title>
   </head>
   <body>
     <div id="BodyBackground-left">
@@ -17,8 +17,8 @@
     </div>
     <div class="Page">
       {% include header.html %}
-      {% include header_image.html image=page.headerImage %}
-      <div class="Page-Body">
+      <div class="Page-Body {% if page.verticalHeader != null %}Page-Body--vertical{% endif %}">
+        {% include header_image.html image=page.headerImage verticalClass=page.verticalHeader %}        
         <div class="Page-BodyContent">
           {{content}}
         </div>
