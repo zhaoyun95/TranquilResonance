@@ -1,4 +1,4 @@
-.Index-BoardMembers {
+.Index-People {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -6,11 +6,11 @@
   width: 100%;
 }
 
-.Index-BoardMembers a {
+.Index-People a {
   flex: 1 1 auto;
   text-decoration: none;
 }
-.Index-BoardMembers a:hover {
+.Index-People a:hover {
   text-decoration: underline;
 }
 

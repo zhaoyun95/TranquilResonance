@@ -8,21 +8,22 @@ body {
   margin: 0;
 }
 
+$backgroundImageSize: 500px;
 #BodyBackground-left {
   bottom: 0;
-  height: 500px;
+  height: $backgroundImageSize;
   left: 0;
-  position: absolute;
-  width: 500px;
-  z-index: 1;
+  position: fixed;
+  width: $backgroundImageSize;
+  z-index: -1;
 }
 #BodyBackground-right {
   bottom: 0;
-  height: 500px;
-  position: absolute;
+  height: $backgroundImageSize;
+  position: fixed;
   right: 0;
-  width: 500px;
-  z-index: 1;
+  width: $backgroundImageSize;
+  z-index: -1;
 }
 
 .Page {
@@ -34,12 +35,14 @@ body {
   flex-direction: column;
   justify-content: center;
   max-width: 930px;
+  overflow: auto;
   z-index: 2;
 }
 
 .Page-Body {
   box-sizing: border-box;
   flex-grow: 1;
+  min-height: 600px; // We want it to flow to the bottom (to cover the background image edges). This isn't ideal.
   padding: 20px;
   width: 100%;
 }
