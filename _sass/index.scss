@@ -1,4 +1,4 @@
-.Index-People {
+.Index-Instructors {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -6,11 +6,13 @@
   width: 100%;
 }
 
-.Index-People a {
+.Index-Instructors a {
+  display: flex;
   flex: 1 1 auto;
+  justify-content: center;
   text-decoration: none;
 }
-.Index-People a:hover {
+.Index-Instructors a:hover {
   text-decoration: underline;
 }
 

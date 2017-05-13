@@ -10,7 +10,7 @@ body {
 
 $backgroundImageSize: 500px;
 #BodyBackground-left {
-  bottom: 0;
+  top: 0;
   height: $backgroundImageSize;
   left: 0;
   position: fixed;
@@ -18,7 +18,7 @@ $backgroundImageSize: 500px;
   z-index: -1;
 }
 #BodyBackground-right {
-  bottom: 0;
+  top: 0;
   height: $backgroundImageSize;
   position: fixed;
   right: 0;
