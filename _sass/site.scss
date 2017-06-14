@@ -73,3 +73,20 @@ h1 {
 .Page-Footer {
   padding-bottom: 10px;
 }
+
+// Some hacks to make it not look awful on mobile.
+@media only screen 
+  and (max-width: 930px) {
+  
+    .Page, .Header, .headerImage img {
+      width: 100%;
+    }
+    .Page {
+      overflow-x: hidden;
+    }
+    .Header > ul {
+      // Note: this doesn't make submenu options available.
+      flex-direction: column !important;
+    }
+
+}
