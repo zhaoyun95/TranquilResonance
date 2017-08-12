@@ -45,6 +45,12 @@
   top: 100%;
   transition: all 300ms;
 }
+@media only screen and (max-width: 930px) {
+  .Header-navigation li ul {
+    background-color: #666;
+    position: relative;
+  }
+}
 .Header-navigation li:hover ul {
   display: block;
 }
