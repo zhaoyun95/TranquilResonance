@@ -5,3 +5,5 @@ Also install any extensions in _congif.yml (eg `gem install octopress-autoprefix
 Then run `jekyll serve` from inside the directory.
 
 A member of tranquil resonance must approve pull requests.
+
+If you have an issue installing gems due to write permissions, you can input the following option after the gem command: gem install anygem --user-install
